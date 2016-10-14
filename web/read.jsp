@@ -7,7 +7,7 @@
         <title>JSP Page</title>
     </head>
     
-    <% String table = (String) request.getAttribute("table");%>
+    <% String table = (String) request.getAttribute("table"); %>
     <body>
         <h1>Product List</h1>
         <%= table%>

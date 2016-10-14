@@ -59,7 +59,7 @@ public class ReadQuery {
     public void doRead(){
     
         try {
-            String query = "Select * from products";
+            String query = "Select * from PRODUCTS";
             PreparedStatement ps = conn.prepareStatement(query);    
             this.results = ps.executeQuery();
         } catch (SQLException ex) {
