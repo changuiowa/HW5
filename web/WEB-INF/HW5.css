@@ -12,11 +12,18 @@ table.list {
 table.list th {
 	color: #696969;
         background: #FFFF99;
+        padding: 10px;
+        vertical-align: top;
+        
 }
 
 table.list td {
 	color: #FFFFFF;
         background: #F08080;
+        padding: 10px;
+        vertical-align: top;
+
+
 }
 
 table.add {
@@ -29,9 +36,15 @@ table.add {
 table.list th {
 	color: #F08080;
         background: #FFFF99;
+        padding: 10px;
+        vertical-align: top;
+
 }
 
 table.list td {
 	color: #FFFFFF;
         background: #F08080;
+        padding: 10px;
+        vertical-align: top;
+
 }
