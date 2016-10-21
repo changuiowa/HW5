@@ -12,5 +12,8 @@
         <h1>Product List</h1>
         <%= table%>
         
+        <br><br>
+        <a href="add">Add a new product</a>
+    
     </body>
 </html>
