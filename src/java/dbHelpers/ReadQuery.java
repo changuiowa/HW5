@@ -105,8 +105,9 @@ public class ReadQuery {
                 table += products.getCompany();
                 table += "</td>";
                 
-                
-                
+                table += "<td>";
+                table += "<a href=delete?productID=" + products.getProductID() + "> Delete</a>";
+                table += "</td>";
                 
                 table += "</tr>";
                 
